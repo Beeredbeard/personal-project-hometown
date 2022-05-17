@@ -1,0 +1,103 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-divisions {
+    height: 400px;
+}
+
+#hero {
+    background-image: url("images/vitkov-background.jpg");
+    background-size: cover;
+    padding-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+#hero h1 {
+    width: 7em;
+    padding: 5px 0px;
+    margin: 0 auto;
+    color: #F1FAEE;
+    background-color: #1D3557;
+    border-radius: 15px;
+}
+
+#hero h2 {
+    width: 18em;
+    margin: 70px auto 0;
+    padding: 5px 0px;
+    color: #F1FAEE;
+    background-color: #457B9D;
+    border-radius: 10px;
+}
+
+#activites {
+    background-color: rgb(178, 116, 0);
+    color: #F1FAEE;
+    font-family: 'Spinnaker', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.middle-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle-images p {
+    width: 11em;
+}
+
+.img-foods {
+    border: 1px black solid;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+#guide {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    background-color: #1D3557;
+    border-radius: 15px;
+}
+
+#img-seanme {
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#guide-info {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #F1FAEE;
+}
+
+#guide-background {
+    background-color: #457B9D;
+    padding: 50px 0px;
+}
